@@ -1,17 +1,28 @@
 <template>
   <div>
-    <h1>nuxt-gottani-template</h1>
-    <input type="number">
-    <Example name="world" />
+    <TheHeader :title="bio.header.title" :image-url="bio.header.imageUrl" />
+
+    <ContentViewer
+      v-for="(content, index) in bio.sections"
+      :key="index"
+      :title="content.title"
+      :description="content.description"
+    />
   </div>
 </template>
 
 <script>
-import Example from '~/components/Example'
+import bio from '~/plugins/bio'
+import TheHeader from '~/components/TheHeader'
+import ContentViewer from '~/components/ContentViewer'
 
 export default {
   components: {
-    Example
+    TheHeader,
+    ContentViewer
+  },
+  computed: {
+    bio: () => bio
   }
 }
 </script>

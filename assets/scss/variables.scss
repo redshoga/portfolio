@@ -1,16 +1,35 @@
 // variables
 $container-width: 600px;
 
-// mixin
-$breakpoints: (
-  "sm": "screen and (min-width: 400px)",
-  "md": "screen and (min-width: 768px)",
-  "lg": "screen and (min-width: 1000px)",
-  "xl": "screen and (min-width: 1200px)"
-) !default;
-
-@mixin mq($breakpoint: md) {
-  @media #{map-get($breakpoints, $breakpoint)} {
-    @content;
-  }
+// font
+@mixin font-bold {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 900;
 }
+@mixin font-normal {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+// color
+$color-background: #FAFAFA;
+$color-main: #EA0066;
+$color-white: #FFFFFF;
+$color-black: #2D2D2D;
+$color-border: #D0D0D0;
+
+// shadow
+@mixin shadow-normal {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+// header
+$header-height: 280px;
+$header-color-height: 150px;
+$header-color-padding-top: 60px;
+$header-icon-size: 120px;
+$header-icon-border-size: 5px;
+
+// margin
+$margin-size-1: 8px;
