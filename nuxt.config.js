@@ -20,7 +20,7 @@ export default {
       { rel: 'icon', type: 'image/png', href: bio.header.imageUrl },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap'
+        href: 'https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap'
       }
     ]
   },

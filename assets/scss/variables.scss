@@ -10,6 +10,7 @@ $container-width: 600px;
 @mixin font-normal {
   font-family: 'Roboto';
   font-size: 12px;
+  font-weight: 400;
 }
 
 // color
@@ -18,6 +19,7 @@ $color-main: #EA0066;
 $color-white: #FFFFFF;
 $color-black: #2D2D2D;
 $color-border: #D0D0D0;
+$color-sub: #EA0066;
 
 // shadow
 @mixin shadow-normal {
@@ -30,6 +32,9 @@ $header-color-height: 150px;
 $header-color-padding-top: 60px;
 $header-icon-size: 120px;
 $header-icon-border-size: 5px;
+
+// footer
+$footer-height: 50px;
 
 // margin
 $margin-size-1: 8px;

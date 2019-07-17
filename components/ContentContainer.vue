@@ -1,17 +1,23 @@
 <template>
-  <div class="contents-viewer">
+  <div :id="id" class="contents-viewer">
+    {{ id }}
     <div class="title">
       {{ title }}
     </div>
     <div class="description">
       {{ description }}
     </div>
+    <slot />
   </div>
 </template>
 
 <script>
 export default {
   props: {
+    id: {
+      type: String,
+      required: true
+    },
     title: {
       type: String,
       required: true
@@ -20,14 +26,6 @@ export default {
       type: String,
       required: false,
       default: null
-    },
-    type: {
-      type: String,
-      required: true
-    },
-    data: {
-      type: [Object, Array],
-      required: true
     }
   }
 
@@ -36,7 +34,7 @@ export default {
 
 <style lang="scss" scoped>
 .contents-viewer {
-  padding: $margin-size-1;
+  padding: $margin-size-1 * 3;
   border-bottom: 1px solid $color-border;
 
   &:last-child {
@@ -47,7 +45,8 @@ export default {
     @include font-bold;
   }
 
-  .description {
+  .title, .description {
+    margin-bottom: $margin-size-1;
   }
 }
 </style>

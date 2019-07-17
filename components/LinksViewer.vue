@@ -1,0 +1,51 @@
+<template>
+  <ul class="links-container">
+    <li v-for="(link, index) in links" :key="index" class="clearfix">
+      <a :href="link.url">
+        <div class="title">
+          {{ link.title }}
+        </div>
+        <div class="sub-title">
+          {{ link.subTitle }}
+        </div>
+      </a>
+    </li>
+  </ul>
+</template>
+
+<script>
+export default {
+  props: {
+    links: {
+      type: Array,
+      required: true
+    }
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.links-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .title {
+    float: left;
+    &::before {
+      content: "・";
+    }
+  }
+
+  .sub-title {
+    float: right;
+    text-align: right;
+  }
+
+  .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+</style>

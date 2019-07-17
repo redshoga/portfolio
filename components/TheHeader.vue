@@ -5,6 +5,11 @@
       <div class="title">
         {{ title }}
       </div>
+      <div class="urls-container">
+        <router-link v-for="(link, index) in links" :key="index" tag="div" :to="link.url">
+          {{ link.title }}
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -19,8 +24,11 @@ export default {
     imageUrl: {
       type: String,
       required: true
+    },
+    links: {
+      type: Array,
+      required: true
     }
-
   }
 }
 </script>
@@ -31,6 +39,7 @@ export default {
   background-color: $color-white;
   width: 100%;
   height: $header-height;
+  position: relative;
 
   .box {
     background-color: $color-main;
@@ -49,6 +58,24 @@ export default {
     width: $header-icon-size;
     border-radius: 50%;
     border: $header-icon-border-size solid $color-white;
+  }
+
+  .urls-container {
+    position: absolute;
+    bottom: 0;
+
+    &>div {
+      display: inline-block;
+      cursor: pointer;
+      padding: $margin-size-1;
+      padding-bottom: $margin-size-1 + 4px;
+
+      &:hover {
+        padding-bottom: $margin-size-1;
+        border-bottom: 4px solid $color-main;
+        box-sizing: border-box;
+      }
+    }
   }
 }
 </style>

@@ -20,8 +20,8 @@ body {
   margin: 0 auto;
   background-color: $color-background;
   min-height: 100%;
+  // overflow: hidden;
 
-  height: 100%;
   @media screen and (min-width: 0) and (max-width: $container-width) {
     width: 100%;
   }
