@@ -1,6 +1,5 @@
 <template>
   <div :id="id" class="contents-viewer">
-    {{ id }}
     <div class="title">
       {{ title }}
     </div>

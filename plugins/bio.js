@@ -91,6 +91,13 @@ export default {
           imageUrl: 'http://placekitten.com/400/400'
         }
       ]
+    },
+    {
+      id: 'html',
+      type: 'html',
+      title: 'title',
+      description: 'description',
+      html: '<b>hello</b><br><b>hello</b>'
     }
   ]
 }

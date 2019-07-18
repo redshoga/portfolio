@@ -17,6 +17,7 @@ import { types } from 'babel-core';
       <LinksViewer v-if="content.type === 'links'" :links="content.links" />
       <ListViewer v-if="content.type === 'list'" :list="content.list" />
       <ImagesViewer v-if="content.type === 'images'" :images="content.images" />
+      <HtmlViewer v-if="content.type === 'html'" :html="content.html" />
     </ContentContainer>
 
     <TheFooter :image-url="bio.footer.imageUrl" />
@@ -31,6 +32,7 @@ import ContentContainer from '~/components/ContentContainer'
 import LinksViewer from '~/components/LinksViewer'
 import ListViewer from '~/components/ListViewer'
 import ImagesViewer from '~/components/ImagesViewer'
+import HtmlViewer from '~/components/HtmlViewer'
 
 export default {
   components: {
@@ -39,7 +41,8 @@ export default {
     ContentContainer,
     LinksViewer,
     ListViewer,
-    ImagesViewer
+    ImagesViewer,
+    HtmlViewer
   },
   computed: {
     bio: () => bio
