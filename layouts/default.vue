@@ -10,6 +10,10 @@ html, body, #__nuxt, #__layout {
 }
 body {
   @include font-normal;
+  background-image: url("/images/background.svg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: right bottom
 }
 </style>
 
