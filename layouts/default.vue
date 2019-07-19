@@ -17,6 +17,7 @@ body {
 }
 a:link, a:visited {
   color: $color-black;
+  text-decoration: none;
 }
 .color-link {
   color: $color-main !important;

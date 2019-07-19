@@ -1,9 +1,13 @@
 <template>
   <div class="images-viewer">
     <div v-for="(content, index) in images" :key="index" class="image-container">
-      <img :src="content.imageUrl">
-      <div>{{ content.title }}</div>
-      <div>{{ content.description }}</div>
+      <a :href="content.url">
+        <img class="image" :src="content.imageUrl">
+        <div class="title">
+          {{ content.title }}
+        </div>
+        <div>{{ content.description }}</div>
+      </a>
     </div>
   </div>
 </template>
@@ -26,6 +30,14 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+
+  .image {
+    @include shadow-image;
+  }
+
+  .title {
+    @include bold;
+  }
 
   .image-container {
     img {

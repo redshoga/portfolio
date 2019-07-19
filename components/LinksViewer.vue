@@ -1,6 +1,6 @@
 <template>
   <ul class="links-container">
-    <li v-for="(link, index) in links" :key="index" class="clearfix">
+    <li v-for="(link, index) in links" :key="index" class="clearfix list">
       <a :href="link.url">
         <div class="title">
           {{ link.title }}
@@ -29,6 +29,13 @@ export default {
   list-style: none;
   margin: 0;
   padding: 0;
+
+  .list {
+    margin-bottom: $margin-size-1 / 2;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 
   .title {
     float: left;
