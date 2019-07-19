@@ -15,6 +15,12 @@ body {
   background-attachment: fixed;
   background-position: right bottom
 }
+a:link, a:visited {
+  color: $color-black;
+}
+.color-link {
+  color: $color-main !important;
+}
 </style>
 
 <style lang="scss" scoped>

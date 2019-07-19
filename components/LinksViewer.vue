@@ -5,7 +5,7 @@
         <div class="title">
           {{ link.title }}
         </div>
-        <div class="sub-title">
+        <div class="sub-title color-link">
           {{ link.subTitle }}
         </div>
       </a>
