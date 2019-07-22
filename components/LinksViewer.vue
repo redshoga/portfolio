@@ -1,24 +1,46 @@
 <template>
-  <ul class="links-container">
-    <li v-for="(link, index) in links" :key="index" class="clearfix list">
-      <a :href="link.url">
-        <div class="title">
-          {{ link.title }}
-        </div>
-        <div class="sub-title color-link">
-          {{ link.subTitle }}
-        </div>
-      </a>
-    </li>
-  </ul>
+  <WithFooterLink
+    :footer-content="nullOrValue(footerLink, 'content')"
+    :footer-url="nullOrValue(footerLink, 'url')"
+  >
+    <ul class="links-container">
+      <li v-for="(link, index) in links" :key="index" class="clearfix list">
+        <a :href="link.url">
+          <div class="title">
+            {{ link.title }}
+          </div>
+          <div class="sub-title color-link">
+            {{ link.subTitle }}
+          </div>
+        </a>
+      </li>
+    </ul>
+  </WithFooterLink>
 </template>
 
 <script>
+import WithFooterLink from '~/components/WithFooterLink'
+
 export default {
+  components: {
+    WithFooterLink
+  },
   props: {
     links: {
       type: Array,
       required: true
+    },
+    footerLink: {
+      type: Object,
+      required: false,
+      default: null
+    }
+  },
+  methods: {
+    nullOrValue(obj, key) {
+      if (!obj) return null
+      if (!(key in obj)) return null
+      return obj[key]
     }
   }
 }

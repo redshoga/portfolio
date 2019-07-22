@@ -1,4 +1,3 @@
-import { types } from 'babel-core';
 <template>
   <div>
     <TheHeader
@@ -14,7 +13,7 @@ import { types } from 'babel-core';
       :title="content.title"
       :description="content.description"
     >
-      <LinksViewer v-if="content.type === 'links'" :links="content.links" />
+      <LinksViewer v-if="content.type === 'links'" :links="content.links" :footer-link="content.footerLink" />
       <ListViewer v-if="content.type === 'list'" :list="content.list" />
       <ImagesViewer v-if="content.type === 'images'" :images="content.images" />
       <HtmlViewer v-if="content.type === 'html'" :html="content.html" />

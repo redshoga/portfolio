@@ -62,7 +62,11 @@ export default {
           title: 'サルでもわかるEthereum,DAppsの使い方,作り方 その2 ～簡単なスマートコントラクトの実行編～',
           url: 'https://qiita.com/redshoga/items/c20281e0d3b6eee7b115'
         }
-      ]
+      ],
+      footerLink: {
+        content: 'Qiita記事一覧はこちら',
+        url: 'https://qiita.com/redshoga'
+      }
     },
     {
       id: 'github',
@@ -120,7 +124,11 @@ export default {
           subTitle: '仮想通貨の急上昇急降下を通知するTwitter bot',
           url: 'https://github.com/redshoga/coin-price-alert-tweet-bot'
         }
-      ]
+      ],
+      footerLink: {
+        content: 'GitHubリポジトリ一覧はこちら',
+        url: 'https://github.com/redshoga'
+      }
     },
     {
       id: 'activities',
