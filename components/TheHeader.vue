@@ -6,9 +6,11 @@
         {{ title }}
       </div>
       <div class="urls-container">
-        <router-link v-for="(link, index) in links" :key="index" tag="div" :to="link.url">
-          {{ link.title }}
-        </router-link>
+        <a v-for="(link, index) in links" :key="index" :href="link.url">
+          <div>
+            {{ link.title }}
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -64,7 +66,7 @@ export default {
     position: absolute;
     bottom: 0;
 
-    &>div {
+    & div {
       display: inline-block;
       cursor: pointer;
       padding: $margin-size-1;
