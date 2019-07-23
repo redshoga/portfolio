@@ -24,79 +24,79 @@ export default {
         // TODO 順番, title, description
         {
           title: 'npx redshoga',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/npx redshoga.png',
           url: 'https://qiita.com/redshoga/items/f1b5b003650172c54044'
         },
         {
           title: 'Mouse Cursor Jamming',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/Mouse Cursor Jamming.png',
           url: 'https://qiita.com/redshoga/items/8f8579a60a8e5ed49d6d'
         },
         {
           title: 'SymmetryFace',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/SymmetryFace.jpeg',
           url: 'https://qiita.com/redshoga/items/964dd70caa966c03f879'
         },
         {
           title: 'ZIP⇔画像変換器',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/zipimage.png',
           url: 'https://redshoga.github.io/zipimage/'
         },
         {
           title: '削除したツイートだけ取ってくるシステム',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/deleted tweets getter.png',
           url: 'https://qiita.com/redshoga/items/220f11fbe7bd4f8c61f1'
         },
         {
           title: 'ポートフォリオ',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/portfolio.png',
           url: 'https://github.com/redshoga/portfolio'
         },
         {
           title: '2x Speed',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/2x-video-extension.png',
           url: 'https://chrome.google.com/webstore/detail/2x-speed/olomblpgcmhcgpijaioadbecpidmmdmb'
         },
         {
           title: 'Random Qiita',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/random-qiita-extension.png',
           url: 'https://chrome.google.com/webstore/detail/random-qiita/boompcfpganckjaomimmlppibifhbcji'
         },
         {
           title: 'nomosaic',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/nomosaic.png',
           url: 'https://nomosaic.netlify.com/'
         },
         {
           title: 'coin-price-alert-tweet-bot',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/coin-price-alert-tweet-bot.jpg',
           url: 'https://github.com/redshoga/coin-price-alert-tweet-bot'
         },
         {
           title: 'awesome-min-editor-fire',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/awesome-min-editor-fire.png',
           url: 'https://github.com/redshoga/awesome-min-editor-fire'
         },
         {
           title: 'RandomImageViewer',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/RandomImageViewer.png',
           url: 'https://redshoga.github.io/RandomImageViewer/'
         },
         {
           title: '白っぽい文字で動作するプログラミング言語',
-          description: 'TODO',
+          description: '',
           imageUrl: 'images/shiroppoi.png',
           url: 'https://redshoga.github.io/shiroppoi/'
         }
