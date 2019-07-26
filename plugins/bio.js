@@ -1,7 +1,7 @@
 export default {
   header: {
     title: "redshoga's portfolio",
-    imageUrl: 'https://pbs.twimg.com/profile_images/1033696700831940608/eL2iXC3v_400x400.jpg',
+    imageUrl: './images/icon.jpg',
     links: [
       { title: 'Services', url: '#services' },
       { title: 'Accounts', url: '#accounts' },
@@ -12,7 +12,7 @@ export default {
     ]
   },
   footer: {
-    imageUrl: 'https://pbs.twimg.com/profile_images/1033696700831940608/eL2iXC3v_400x400.jpg'
+    imageUrl: './images/icon.jpg'
   },
   sections: [
     {
