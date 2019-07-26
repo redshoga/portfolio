@@ -3,7 +3,6 @@ export default {
     title: "redshoga's portfolio",
     imageUrl: './images/icon.jpg',
     links: [
-      { title: 'Services', url: '#services' },
       { title: 'Accounts', url: '#accounts' },
       { title: 'GitHub', url: 'https://github.com/redshoga' },
       { title: 'Qiita', url: 'https://qiita.com/redshoga' },
