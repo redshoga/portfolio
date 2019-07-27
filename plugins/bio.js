@@ -302,6 +302,11 @@ export default {
           title: 'Blog',
           subTitle: '雑記',
           url: 'https://benishoga.hatenablog.com/'
+        },
+        {
+          title: 'LAPRAS',
+          subTitle: '勝手に得点化してくるやつ',
+          url: 'https://lapras.com/public/LITSWPL'
         }
       ]
     },
