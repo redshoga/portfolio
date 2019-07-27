@@ -206,7 +206,7 @@ export default {
       id: 'activities',
       type: 'links',
       title: 'Activities',
-      description: '登壇情報',
+      description: '登壇など',
       links: [
         {
           title: '1時間でまるわかり！決済Webアプリ開発徹底解説！【Vue.js+Nuxt.js+Firebase】',
@@ -222,6 +222,11 @@ export default {
           title: 'Azure Cognitive Services と Box Platform を活用した、次世代コンテンツ マネジメント システム開発',
           subTitle: 'Microsoft Tech Summit 2018',
           url: 'https://www.microsoft.com/ja-jp/events/techsummit/2018/session.aspx'
+        },
+        {
+          title: 'Azureでキャリアを拓く ～クラウドに出会った4人の物語～',
+          subTitle: 'ASCII.jp',
+          url: 'https://ascii.jp/elem/000/001/838/1838466/'
         }
       ]
     },
