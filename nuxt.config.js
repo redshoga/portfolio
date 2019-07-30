@@ -16,6 +16,9 @@ export default {
         content: bio.header.title
       }
     ],
+    script: [
+      { src: './scripts/drift.js' }
+    ],
     link: [
       { rel: 'icon', type: 'image/png', href: bio.header.imageUrl },
       {
