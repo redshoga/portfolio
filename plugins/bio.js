@@ -51,6 +51,12 @@ export default {
           url: 'https://github.com/redshoga/portfolio'
         },
         {
+          title: 'サブマネ',
+          description: 'サブスクリプションサービス管理サービス',
+          imageUrl: './images/monesub.png',
+          url: 'https://subsmgr.netlify.com',
+        },
+        {
           title: 'coin-price-alert-tweet-bot',
           description: '仮想通貨の急変動をつぶやくTwitter BOT(休止中).(Python,Twitter API)',
           imageUrl: 'images/coin-price-alert-tweet-bot.jpg',
