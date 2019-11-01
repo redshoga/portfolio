@@ -366,6 +366,13 @@ export default {
       title: 'Contact',
       description: 'お問い合わせに関して',
       html: `TwitterのDMまたはFacebook Messengerが一番反応が早いです.<br>以下のGoogleフォームからもお問い合わせいただけます.<br><a class="color-link" href="https://docs.google.com/forms/d/e/1FAIpQLSck2TcJoZDblEB1Yz16zykekSByFNx9vr979Q8IKcfv5-KCNA/viewform">お問い合わせフォーム</a>`
+    },
+    {
+      id: 'cg',
+      type: 'html',
+      title: 'CG作品',
+      description: '作品集',
+      html: '準備中'
     }
   ]
 }
