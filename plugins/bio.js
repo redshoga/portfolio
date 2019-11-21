@@ -54,7 +54,7 @@ export default {
           title: 'サブマネ',
           description: 'サブスクリプションサービス管理サービス',
           imageUrl: './images/monesub.png',
-          url: 'https://subsmgr.netlify.com',
+          url: 'https://subsmgr.netlify.com'
         },
         {
           title: 'coin-price-alert-tweet-bot',
@@ -233,6 +233,11 @@ export default {
           title: 'Azureでキャリアを拓く ～クラウドに出会った4人の物語～',
           subTitle: 'ASCII.jp',
           url: 'https://ascii.jp/elem/000/001/838/1838466/'
+        },
+        {
+          title: 'NuxtのプロジェクトにLogRocketを追加してすぐに幸せになる方法',
+          subTitle: 'Yumemi.vue #3',
+          url: 'https://qiita.com/redshoga/items/09eced11017ff6c08c7b'
         }
       ]
     },
@@ -329,7 +334,7 @@ export default {
           title: 'フロントエンド: Vue/Nuxt/React/HTML5/CSS3/jQuery'
         },
         {
-          title: 'バックエンド: Express/Rails/Django/Flask/Sinatra'
+          title: 'バックエンド: Express/Nest.js/Rails/Django/Flask/Sinatra'
         },
         {
           title: 'クラウド: AWS(ECR,ECS,S3,Lambda)/GCP(Firebase)/Azure(ACR,AKS)'
@@ -348,6 +353,11 @@ export default {
       title: 'OSS Contribution',
       description: '貢献リポジトリ一覧',
       links: [
+        {
+          title: 'nestjs/nest',
+          subTitle: 'TS, JSのためのExpressの次に有名なウェブフレームワーク',
+          url: 'https://github.com/nestjs/nest'
+        },
         {
           title: 'Redocly/create-react-app-redoc',
           subTitle: 'Swaggerの閲覧サービス',
