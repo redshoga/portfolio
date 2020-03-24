@@ -1,4 +1,4 @@
-# NEW VERSION REPO => https://github.com/redshoga/portfolio
+# NEW VERSION REPO => https://github.com/redshoga/portfolio-v2
 
 # redshoga's portfolio
 
